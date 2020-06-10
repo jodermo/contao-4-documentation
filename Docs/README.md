@@ -1,8 +1,8 @@
-![GitHub Logo](../images/contao_docs.png)
-
+![GitHub Logo](../Images/contao_docs.jpg)
 
 # Contao 4 Documentation
-#### by Moritz Petzka [petzka.com](https://petzka.com) 
+##### Some basic stuff for working with Contao 4 ([https://contao.org](https://contao.org))
+###### by Moritz Petzka [petzka.com](https://petzka.com) 
 
 <br>
 
