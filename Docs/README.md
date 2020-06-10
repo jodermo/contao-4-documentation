@@ -2,9 +2,7 @@
 
 ###### Contao Website: [contao.org](https://contao.org)
 
-<br>
-
-# Contao 4 Documentation
+# Contao 4 <br> Development Documentation
 
 ## [Local Development](./local_development/README.md)
 
