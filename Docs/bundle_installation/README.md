@@ -58,25 +58,7 @@ add code to \<contao root path\>/composer.json
 
 <br>
 
-## Update Bundle Contao Manager
-
-##### Enter Contao Manager
-Type URL `<your domain>/contao-manager.phar.php` in your Browser and enter login Admin credentials to launch Contao Manager
-
-    
-   
-![contao_manager_home](../screenshots/contao_manager_home.jpg)
-
-##### Go to "PACKAGES"
-##### Click on "Update" on Bundle you want update
-##### Click on "Apply Changes"
-
-
-##### Run composer update
-
-```bash
-php composer.phar update
-```
+## Method A: Install Bundle with composer
 
 ##### Enter SSH server
 ```bash
@@ -93,9 +75,38 @@ and: `public_html/www` with path to your contao installation
 php composer.phar update
 ```
 
-
 <br>
 
+## Method B: Install Bundle with Contao Manager
+
+##### Enter Contao Manager
+Type URL `<your domain>/contao-manager.phar.php` in your Browser and enter login credentials to launch Contao Manager
+
+![contao_manager_home](../screenshots/contao_manager_package_new.jpg)
+You should see the hint that there is a new package
+
+##### Go to "PACKAGES"
+![contao_manager_home](../screenshots/contao_manager_package_added.jpg)
+You should see your new package listed
+
+##### Click on "Apply Changes"
+![contao_manager_home](../screenshots/contao_manager_package_install.jpg)
+That should take a while
+
+##### Click Update database
+![contao_manager_home](../screenshots/contao_manager_packages_update_database.jpg)
+
+##### Login to Install Tool and update database
+![contao_manager_home](../screenshots/contao_manager_package_install_database.jpg)
+
+##### Installation done
+![contao_manager_home](../screenshots/contao_manager_package_install_database_done.jpg)
+go to Contao backend
+
+##### Bundle ready
+![contao_manager_home](../screenshots/contao_manager_package_ready.jpg)
+
+<br>
 
 ##### [Troubleshooting](../troubleshooting/README.md)
 ##### [Overwiev](../..//README.md)

@@ -16,6 +16,8 @@
 
 ## [Add Custom Bundles](./Docs/bundle_installation/README.md)
 
+## [Contao Manager](./Docs/contao_manager/README.md)
+
 ## [SSH & Composer](./Docs/ssh_composer/README.md)
 
 ## [Troubleshooting](./Docs/troubleshooting/README.md)
