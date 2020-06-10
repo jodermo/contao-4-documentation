@@ -1,4 +1,4 @@
-![GitHub Logo](../Images/contao_docs.jpg)
+![GitHub Logo](../repo/img/logo.png)
 
 ###### Contao Website: [contao.org](https://contao.org)
 
