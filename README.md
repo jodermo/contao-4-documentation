@@ -2,19 +2,23 @@
 
 ###### Contao Website: [contao.org](https://contao.org)
 
-# [Local Development](./Docs/local_development/README.md)
+<br>
 
-# [Web Server](./Docs/server_settings/README.md)
+# Contao 4 Documentation
 
-# [Install Contao](./Docs/contao_installation/README.md)
+## [Local Development](./Docs/local_development/README.md)
 
-# [Install Contao Theme](./Docs/theme_installation/README.md)
+## [Web Server](./Docs/server_settings/README.md)
 
-# [Add Custom Bundles](./Docs/bundle_installation/README.md)
+## [Install Contao](./Docs/contao_installation/README.md)
 
-# [SSH & Composer](./Docs/ssh_composer/README.md)
+## [Install Contao Theme](./Docs/theme_installation/README.md)
 
-# [Troubleshooting](./Docs/troubleshooting/README.md)
+## [Add Custom Bundles](./Docs/bundle_installation/README.md)
+
+## [SSH & Composer](./Docs/ssh_composer/README.md)
+
+## [Troubleshooting](./Docs/troubleshooting/README.md)
 
 <br>
 
