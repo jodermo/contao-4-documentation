@@ -10,7 +10,9 @@ ssh -p 22 -t username@your-domain "cd public_html/www; exec \$SHELL -l"
 ```
 replace: `22` with port number, <br>
 `username@your-domain` with your credentials <br>
-and: `public_html/www` with path to contao installation
+and: `public_html/www` with path to your contao installation
+
+<br>
 
 ## update `composer.phar`
 default 
