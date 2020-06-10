@@ -4,10 +4,13 @@
 <br>
 
 ## SSH
-Enter SSH server (port 22) 
+Enter SSH server
 ```bash
-ssh -p 22 -t username@no-domeain-yet "cd public_html/www; exec \$SHELL -l"
+ssh -p 22 -t username@your-domain "cd public_html/www; exec \$SHELL -l"
 ```
+replace: `22` with port number, <br>
+`username@your-domain` with your credentials <br>
+and: `public_html/www` with path to contao installation
 
 ## update `composer.phar`
 default 
