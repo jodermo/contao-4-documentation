@@ -4,14 +4,7 @@
 <br>
 
 ## SSH
-
-##### Development Version [digitale-schule.petzka.com](http://digitale-schule.petzka.com):
-```bash
-ssh -p 222 -t petzka@petzka.com "cd public_html/digitale-schule; exec \$SHELL -l"
-```
-
-##### Production Version [no-domeain-yet](#):
-
+Enter SSH server (port 22) 
 ```bash
 ssh -p 22 -t username@no-domeain-yet "cd public_html/www; exec \$SHELL -l"
 ```
