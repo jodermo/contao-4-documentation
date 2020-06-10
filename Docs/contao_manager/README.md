@@ -15,7 +15,7 @@ Type URL `<your domain>/contao-manager.phar.php` in your Browser and enter login
 
 <div style="width: 72px">
 
-![contao_manager_home](../screenshots/contao_manager_home.jpg | width=270px ){ }
+![contao_manager_home](../screenshots/contao_manager_home.jpg)
 
 
 ## Update Bundle 
