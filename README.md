@@ -17,6 +17,13 @@
 
 <br>
 
+## Examples
+
+##### Contao/Symfony Bundle <br> [github.com/jodermo/petzka-demo-bundle](https://github.com/jodermo/petzka-demo-bundle)
+
+
+<br>
+
 ## Downloads
 ###### contao-manager:
 This repo: <a href="/Downloads/Contao/contao-manager.phar" download>contao-manager.phar</a><br>

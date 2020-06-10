@@ -4,8 +4,6 @@
 <br>
 
 #### 1. Download and extract Theme
-Contao 4.4 [basic-3-contao44-2019-01-06.zip](../../Downloads/Themes/basic-3-contao44-2019-01-06.zip)<br>
-Contao 4.9 [basic-3-contao44-2019-01-06.zip](../../Downloads/Themes/basic-3-contao49-2020-02-19.zip)
 
 #### 2. Copy theme files to Contao installation
  

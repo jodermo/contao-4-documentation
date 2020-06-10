@@ -3,6 +3,10 @@
 
 <br>
 
+###### Example Contao/Symfony Bundle: <br> [github.com/jodermo/petzka-demo-bundle](https://github.com/jodermo/petzka-demo-bundle)
+
+
+
 ## Add Bundle as Git-Repository<br>
 add code to \<contao root path\>/composer.json
 ```json
