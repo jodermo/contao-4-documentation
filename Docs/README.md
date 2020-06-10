@@ -4,7 +4,7 @@
 
 # [Local Development](./local_development/README.md)
 
-# [Web Server](./local_development/README.md)
+# [Web Server](./server_settings/README.md)
 
 # [Install Contao](./contao_installation/README.md)
 
