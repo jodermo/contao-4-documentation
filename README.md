@@ -1,3 +1,5 @@
+![GitHub Logo](./images/contao_docs.png)
+
 # Contao 4 Documentation
 #### by Moritz Petzka [petzka.com](https://petzka.com) 
 
