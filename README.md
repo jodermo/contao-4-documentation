@@ -20,7 +20,7 @@
 ## Downloads
 ###### contao-manager:
 This repo: <a href="/Downloads/Contao/contao-manager.phar" download>contao-manager.phar</a><br>
-Online: [getcomposer.org/download](https://getcomposer.org/download/)
+Online: [contao.org/de/download.html](https://contao.org/de/download.html)
 ###### composer:
 This repo: <a href="/Downloads/Contao/composer.phar" download>composer.phar</a><br>
 Online: [getcomposer.org/download](https://getcomposer.org/download/)
