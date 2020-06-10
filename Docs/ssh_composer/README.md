@@ -1,5 +1,4 @@
 # Contao 4 - SSH & Composer
-###### by Moritz Petzka [petzka.com](https://petzka.com) 
 
 <br>
 
@@ -52,5 +51,8 @@ vendor/bin/contao-console cache:clear --env=prod
 
 <br>
 
-##### [Troubleshooting](../troubleshooting/README.md)
-##### [Overwiev](../..//README.md)
+#### • [Documentation Overwiev](../..//README.md)
+#### • [Troubleshooting](../troubleshooting/README.md)
+
+######  © 2020 by Moritz Petzka [petzka.com](https://petzka.com) 
+

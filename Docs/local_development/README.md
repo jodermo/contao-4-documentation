@@ -1,28 +1,16 @@
-# Contao 4 - Installation
+# Contao 4 - Local Development
 
 <br>
 
-## Installation
+## Windows
 
-#### 1. generate directory for Contao installation (e.g. `my-contao/`)
-#### 2. generate `web/` directory inside Contao installation path (`my-contao/`)
-#### 3. set `my-contao/web/` as website root in the server settings
-#### 4. Download [contao-manager.phar](https://contao.org/de/download.html) and drop the file in `my-contao/web/`
-#### 6. Rename `contao-manager.phar` to `contao-manager.phar.php`
-#### 7. Open URL `[your domain]/contao-manager.phar.php` in browser to run the installation
+### XAMPP
 
-## Next Steps
+XAMPP is a completely free, easy to install Apache distribution containing MariaDB, PHP, and Perl. The XAMPP open source package has been set up to be incredibly easy to install and to use.
 
-##### [Install Contao Theme](../theme_installation/README.md)
-##### [Add Custom Bundles](../bundle_installation/README.md)
-##### [Troubleshooting](../troubleshooting/README.md)
+###### Website & Download: [www.apachefriends.org](https://www.apachefriends.org/index.html)
 
-<br>
-
-## Configuration For Local Use
-### XAMPP (Windows 10):
-
-##### PHP configuration
+##### XAMPP PHP configuration for Contao 4
 change following lines in php.ini
 ```
 file_uploads = On (ca. Zeile 833)
@@ -36,7 +24,9 @@ extension=intl (ca. Zeile 917) das Semikolon wegnehmen
 extension=soap (ca. Zeile 939) das Semikolon wegnehmen
 ```
 
-#### Add Virtual Host
+<br>
+
+#### Add virtual host for Contao project
 add following code to <b>httpd-vhosts.conf</b><br>
 (in \<xampp path\>/apache/conf/extra/)
 ```

@@ -1,20 +1,21 @@
 ![GitHub Logo](../Images/contao_docs.jpg)
 
-# Contao 4 Documentation
-##### Some basic stuff for working with Contao 4 ([https://contao.org](https://contao.org))
-###### by Moritz Petzka [petzka.com](https://petzka.com) 
+###### Contao Website: [contao.org](https://contao.org)
+
+# [Local Development](./local_development/README.md)
+
+# [Web Server](./local_development/README.md)
+
+# [Install Contao](./contao_installation/README.md)
+
+# [Install Contao Theme](./theme_installation/README.md)
+
+# [Add Custom Bundles](./bundle_installation/README.md)
+
+# [SSH & Composer](./ssh_composer/README.md)
+
+# [Troubleshooting](./troubleshooting/README.md)
 
 <br>
 
-## Documentation
-
-##### [Install Contao](./contao_installation/README.md)
-
-##### [Install Contao Theme](./theme_installation/README.md)
-
-##### [Add Custom Bundles](./bundle_installation/README.md)
-
-##### [SSH & Composer](./ssh_composer/README.md)
-
-##### [Troubleshooting](./troubleshooting/README.md)
-
+######  © 2020 by Moritz Petzka [petzka.com](https://petzka.com) 
