@@ -25,7 +25,7 @@ Contao has preconfiguration for XAMPP that worked very well for me.
 ###### ! Note: In this example, the XAMPP install path is `c:\xampp\`
 
 #### PHP Configuration
-php.ini `c:\xampp\php\php.ini`
+Edit following lines in `c:\xampp\php\php.ini`
 ```
 file_uploads = On
 upload_temp_dir = "C:\xamp\tmp"
