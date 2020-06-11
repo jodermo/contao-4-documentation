@@ -52,7 +52,7 @@ add following code to `c:\xampp\apache\conf\extra\httpd-vhosts.conf`
 
 <br>
 
-##SSH in XAMPP
+## SSH in XAMPP
 
 Open XAMPP Shell, type `php -m` to check if `ssh` module is running
 
@@ -60,16 +60,16 @@ Open XAMPP Shell, type `php -m` to check if `ssh` module is running
 
 You need `php_ssh2.dll` in your XAMPP installation (`c:\xampp\php\ext\php_ssh2.dll`)
 
-Download  php_ssh2.dll [HERE](https://phpfashion.com/php-ssh2-dll-for-php-5-6-7-4) <br>
+You can download `php_ssh2.dll` here: [phpfashion.com/php-ssh2-dll-for-php-5-6-7-4]( https://phpfashion.com/php-ssh2-dll-for-php-5-6-7-4) <br>
 Pay attention to the right XAMPP installation (32bit or 64bit) and installed PHP version.
 
-Drop `php_ssh2.dll` file to `c:\xampp\php\ext\` and add following lin to `c:\xampp\php\php.ini`
+Drop `php_ssh2.dll` file to `c:\xampp\php\ext\` <br> and add following line to `c:\xampp\php\php.ini`
 ```
 extension=ssh2
 ```
 Restart Apache and open XAMPP Shell, type `php -m` to check if `ssh` module is running
 
-Remove `#` from following code in `c:\xampp\apache\conf\httpd.conf `
+Remove `#` from following line in `c:\xampp\apache\conf\httpd.conf `
 ```
 #LoadModule ssl_module modules/mod_ssl.so
 ```
