@@ -5,7 +5,7 @@
 ## Windows & Coposer
 "The installer will download composer for you and set up your PATH environment variable so you can simply call composer from any directory. <br>
 Download and run [Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe) - it will install the latest composer version whenever it is executed." <br>
-###### Website & Download: [https://getcomposer.org/](https://getcomposer.org/download/) 
+###### Website & Download: [https://getcomposer.org](https://getcomposer.org/) 
 
 <br>
 
