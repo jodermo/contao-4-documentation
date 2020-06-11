@@ -9,7 +9,7 @@ Download and run [Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe
 
 <br>
 
-## Local Server (width XAMPP)
+## Local Server (with XAMPP)
 
 #### For Windows, I recommend XAMPP!
 Contao has preconfiguration for XAMPP that worked very well for me. 
