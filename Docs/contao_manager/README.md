@@ -1,7 +1,7 @@
 # Contao 4 - Contao Manager
 ###### by Moritz Petzka [petzka.com](https://petzka.com)
 
-##### For installation, look at: [Install Contao](./contao_installation/README.md)
+##### For installation, look at: [Install Contao](../contao_installation/README.md)
 
 <br>
 
