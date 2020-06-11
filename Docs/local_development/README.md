@@ -2,6 +2,13 @@
 
 <br>
 
+## Coposer Windows Installer
+"The installer will download composer for you and set up your PATH environment variable so you can simply call composer from any directory. <br>
+Download and run [Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe) - it will install the latest composer version whenever it is executed." <br>
+###### Website & Download: [https://getcomposer.org/](https://getcomposer.org/download/) 
+
+<br>
+
 ## XAMP
 
 ### I recommend XAMPP
@@ -52,28 +59,26 @@ add following code to `c:\xampp\apache\conf\extra\httpd-vhosts.conf`
 
 <br>
 
-## SSH in XAMPP
+## XAMPP & SSH
 
-Open XAMPP Shell, type `php -m` to check if `ssh` module is running
+Open XAMPP Shell, type `php -m` to check if `ssh` module is already running.
 
-### How to activate SSH in XAMPP:
+<br>
 
-You need `php_ssh2.dll` in your XAMPP installation (`c:\xampp\php\ext\php_ssh2.dll`)
+#### Activate SSH in XAMPP:
 
-You can download `php_ssh2.dll` here: [phpfashion.com/php-ssh2-dll-for-php-5-6-7-4]( https://phpfashion.com/php-ssh2-dll-for-php-5-6-7-4) <br>
-Pay attention to the right XAMPP installation (32bit or 64bit) and installed PHP version.
+First you need `php_ssh2.dll` in your XAMPP installation <br>
+Look for `c:\xampp\php\ext\php_ssh2.dll`.
 
-Drop `php_ssh2.dll` file to `c:\xampp\php\ext\` <br> and add following line to `c:\xampp\php\php.ini`
+If not, you can download `php_ssh2.dll` here: [phpfashion.com/php-ssh2-dll-for-php-5-6-7-4]( https://phpfashion.com/php-ssh2-dll-for-php-5-6-7-4) <br>
+Pay attention to the right XAMPP installation (32bit or 64bit) and the installed PHP version.
+
+Add following line to `c:\xampp\php\php.ini`
 ```
 extension=ssh2
 ```
-Restart Apache and open XAMPP Shell, type `php -m` to check if `ssh` module is running
+Then stop and start Apache,  open XAMPP Shell and type `php -m` to check if `ssh` module is now listed.
 
-Remove `#` from following line in `c:\xampp\apache\conf\httpd.conf `
-```
-#LoadModule ssl_module modules/mod_ssl.so
-```
-<br>
 
 ### Activate Virtual Host for SSH
 To make the local Contao project available over SSH (e.g. `root@contao-demo`) <br>

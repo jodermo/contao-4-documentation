@@ -2,7 +2,7 @@
 
 <br>
 
-## reset admin password
+## Reset admin password
 
 Change admin user password with phpMyAdmin:
 • login to phpMyAdmin and select the right database<br>
@@ -35,6 +35,16 @@ Use -1 for unlimited:
 ```bash
 php -d memory_limit=-1 composer.phar <...>
 ```
+
+<br>
+
+## Problems with XAMPP SSH module
+
+Remove `#` from following line in `c:\xampp\apache\conf\httpd.conf `
+```
+#LoadModule ssl_module modules/mod_ssl.so
+```
+<br>
 
 <br>
 
