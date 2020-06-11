@@ -1,24 +1,38 @@
 ![GitHub Logo](../repo/img/logo.png)
 
-###### Contao Website: [contao.org](https://contao.org)
+# Developing with Contao 4
 
-# Contao 4 <br> Development Documentation
+###### "Contao is a powerful open source CMS that allows you to create professional websites and scalable web applications."
 
-## [Local Development](./local_development/README.md)
+#### Contao Website: [https://contao.org](https://contao.org)
 
-## [Web Server](./server_settings/README.md)
 
-## [Install Contao](./contao_installation/README.md)
+<br>
 
-## [Install Contao Theme](./theme_installation/README.md)
+## Here is a selected collection of solutions that worked well for me
+###### ! Note: For detailed documentation visit the "Official Contao Documentation": [https://docs.contao.org](https://docs.contao.org)
 
-## [Add Custom Bundles](./bundle_installation/README.md)
 
-## [Contao Manager](./contao_manager/README.md)
+#### [Web Server Requirements](./server_settings/README.md)
 
-## [SSH & Composer](./ssh_composer/README.md)
+#### [Set Up Local Development](./local_development/README.md)
 
-## [Troubleshooting](./troubleshooting/README.md)
+#### [SSH & Composer Usement](./ssh_composer/README.md)
+
+#### [Dealing With Contao Manager](./contao_manager/README.md)
+
+
+<br>
+
+##### [Install Contao](./contao_installation/README.md)
+
+##### [Install Contao Theme](./theme_installation/README.md)
+
+##### [Add Custom Bundles](./bundle_installation/README.md)
+
+##### [Troubleshooting](./troubleshooting/README.md)
+
+
 
 <br>
 

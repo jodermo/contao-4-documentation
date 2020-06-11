@@ -1,11 +1,9 @@
-# Contao 4 - Bundle Installation
+# Contao 4 - Add Custom Bundles
 ###### by Moritz Petzka [petzka.com](https://petzka.com) 
 
+###### Example Bundle: [github.com/jodermo/petzka-demo-bundle](https://github.com/jodermo/petzka-demo-bundle)
+
 <br>
-
-###### Example Contao/Symfony Bundle: <br> [github.com/jodermo/petzka-demo-bundle](https://github.com/jodermo/petzka-demo-bundle)
-
-
 
 ## Add Bundle as Git-Repository<br>
 add code to \<contao root path\>/composer.json
@@ -31,6 +29,9 @@ add code to \<contao root path\>/composer.json
 
 ##### ! Note: use version prefix `dev-` as long as there is no stable release, e.g:
     "petzka/demo-bundle": "dev-master"
+
+<br>
+
 
 ## Add Bundle as local Repository<br>
 add code to \<contao root path\>/composer.json

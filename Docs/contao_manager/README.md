@@ -1,21 +1,18 @@
 # Contao 4 - Contao Manager
 ###### by Moritz Petzka [petzka.com](https://petzka.com)
- 
+
+##### For installation, look at: [Install Contao](./contao_installation/README.md)
+
 <br>
-
-## Download Contao Manager
-
-
-## Install Contao Manager
-
-
 
 ## Enter Contao Manager
 Type URL `<your domain>/contao-manager.phar.php` in your Browser and enter login credentials to launch Contao Manager
 
 ![contao_manager_home](../screenshots/contao_manager_home.jpg)
 
-## Update Bundle 
+<br>
+
+## Update Bundles
 ##### Go to "PACKAGES"
 ![contao_manager_home](../screenshots/contao_manager_home_packages.jpg)
 

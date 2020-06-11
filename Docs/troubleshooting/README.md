@@ -9,12 +9,12 @@ Change admin user password with phpMyAdmin:
 • search for table `tl_user`<br>
 • search for the admin user<br>
 • generate new encrypted password with [https://bcrypt-generator](https://bcrypt-generator.com/) <br>
-• fill encrypted password to password field in database and save<br>
+• fill encrypted password to `password` field in database and save<br>
 • now you can go to Contao backend and login with the new password<br>
 
 <br>
 
-## Contao-Installtool blocked
+## Contao install tool blocked
 
 set `installCount` in `TL_CONFIG` to 0:
 ```bash
@@ -24,8 +24,7 @@ File: `system/config/localconfig.php`
 
 <br>
 
-## memory_limit issue 
-##### SSH `composer.phar`
+## memory_limit issue using `composer.phar`
 
 To get the current memory_limit value, run:
 ```bash
