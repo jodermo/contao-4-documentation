@@ -2,7 +2,7 @@
 
 <br>
 
-## Windows
+## XAMP
 
 ### I recommend XAMPP
 ##### Contao has preconfiguration for XAMPP that worked very well for me. 
@@ -32,10 +32,10 @@ extension=soap
 
 <br>
 
-#### Add virtual host for Contao project
-add following code to<br>
-`c:\xampp\apache\conf\extra\httpd-vhosts.conf`
-```
+### Add virtual host for Contao project
+To make the local Contao project available with custom URL (e.g. `http://contao-demo`) <br>
+add following code to `c:\xampp\apache\conf\extra\httpd-vhosts.conf`
+```xml
 <VirtualHost *:80>
   DocumentRoot "<project path>\web"
   ServerName contao-demo
@@ -52,24 +52,43 @@ add following code to<br>
 
 <br>
 
+##SSH in XAMPP
 
-### Activate SSH in XAMPP
+Open XAMPP Shell, type `php -m` to check if `ssh` module is running
 
-You need `php_ssh2.dll` in your XAMPP installation
+### How to activate SSH in XAMPP:
 
-##### [Download  php_ssh2.dll ](https://phpfashion.com/php-ssh2-dll-for-php-5-6-7-4)
+You need `php_ssh2.dll` in your XAMPP installation (`c:\xampp\php\ext\php_ssh2.dll`)
+
+Download  php_ssh2.dll [HERE](https://phpfashion.com/php-ssh2-dll-for-php-5-6-7-4) <br>
 Pay attention to the right XAMPP installation (32bit or 64bit) and installed PHP version.
 
-Drop `php_ssh2.dll` file to `c:\xampp\php\ext\` if needed
-
-Add following lin to `c:\xampp\php\php.ini`
+Drop `php_ssh2.dll` file to `c:\xampp\php\ext\` and add following lin to `c:\xampp\php\php.ini`
 ```
 extension=ssh2
 ```
 Restart Apache and open XAMPP Shell, type `php -m` to check if `ssh` module is running
 
+Remove `#` from following code in `c:\xampp\apache\conf\httpd.conf `
+```
+#LoadModule ssl_module modules/mod_ssl.so
+```
 <br>
 
+### Activate Virtual Host for SSH
+To make the local Contao project available over SSH (e.g. `root@contao-demo`) <br>
+add following code to `c:\xampp\apache\conf\extra\httpd-vhosts.conf`
+```xml
+<VirtualHost *:443>
+    DocumentRoot "<project path>"
+    ServerName contao-demo
+    SSLEngine on
+    SSLCertificateFile "conf/ssl.crt/server.crt"
+    SSLCertificateKeyFile "conf/ssl.key/server.key"
+</VirtualHost>
+```
+
+<br>
 
 ### Enter SSH 
 
@@ -78,7 +97,7 @@ SSH on localhost (`XAMPP default SSL port is 443`)
 ssh -p 443 root@127.0.0.1
 ```
 
-SSH on local virtual host (`contao-demo`)
+SSH on Virtual Host (`contao-demo`)
 ```
 ssh -p 443 root@contao-demo
 ```
