@@ -5,12 +5,12 @@
 ###### "Contao is a powerful open source CMS that allows you to create professional websites and scalable web applications."
 
 #### Contao Website: [https://contao.org](https://contao.org)
-
+#### Official Contao Documentation: [https://docs.contao.org](https://docs.contao.org)
 
 <br>
 
 ## Here is a selected collection of solutions that worked well for me
-###### ! Note: For detailed documentation visit the "Official Contao Documentation": [https://docs.contao.org](https://docs.contao.org)
+###### ! Note: For detailed documentation visit the [Official Contao Documentation](https://docs.contao.org)
 
 
 #### [Web Server Requirements](./Docs/server_settings/README.md)
