@@ -26,6 +26,8 @@
 
 ##### [Install Contao](./Docs/contao_installation/README.md)
 
+##### [Contao Configuration](./Docs/contao_configuration/README.md)
+
 ##### [Install Contao Theme](./Docs/theme_installation/README.md)
 
 ##### [Add Custom Bundles](./Docs/bundle_installation/README.md)
