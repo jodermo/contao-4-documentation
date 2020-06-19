@@ -2,6 +2,13 @@
 
 <br>
 
+## Contao Root Page not found (404)
+
+The alias of start (root) page has to be `index`
+
+<br>
+
+
 ## Reset admin password
 
 Change admin user password with phpMyAdmin:
